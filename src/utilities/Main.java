@@ -11,6 +11,7 @@ public class Main
 		System.out.println("Start....");
 		if (args.length == 3)
 		{
+			System.out.println("This is a test");
 			System.out.println("In the main...");
 			int heght = Integer.parseInt(args[0]);
 			int width = Integer.parseInt(args[1]);
