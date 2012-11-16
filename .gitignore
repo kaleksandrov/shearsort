@@ -1,2 +1,23 @@
-/.classpath
-/.project
+###################
+# Compiled source #
+###################
+ *.com
+ *.class
+ *.dll
+ *.exe
+ *.o
+ *.so
+
+###################
+#     Vim swap    #
+###################
+*~
+
+###################
+#      Other      #
+###################
+build
+bin
+.classpath
+.project
+.settings
