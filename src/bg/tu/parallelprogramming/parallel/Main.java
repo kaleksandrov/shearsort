@@ -55,6 +55,10 @@ public class Main {
 			m = 100;
 			n = 100;
 		} finally {
+			if (reader != null) {
+				reader.close();
+			}
+
 			System.out.print("Initializing mesh...");
 			mesh = new Mesh(m, n);
 			System.out.println("\tOK");
