@@ -1,7 +1,7 @@
-package parallel;
+package bg.tu.parallelprogramming.parallel;
 
-import utilities.MergeSort;
-import utilities.Mesh;
+import bg.tu.parallelprogramming.utilities.MergeSort;
+import bg.tu.parallelprogramming.utilities.Mesh;
 
 /**
  * @author flyingbear

@@ -1,10 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package serial;
-
-import utilities.ArrayUtils;
+package bg.tu.parallelprogramming.utilities;
 
 /**
  * 

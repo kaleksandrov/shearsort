@@ -1,10 +1,10 @@
-package parallel;
+package bg.tu.parallelprogramming.parallel;
 
 import java.util.Collections;
 
-import utilities.ArrayUtils;
-import utilities.Mesh;
-import concurent.CyclingThreadPool;
+import bg.tu.parallelprogramming.concurent.CyclingThreadPool;
+import bg.tu.parallelprogramming.utilities.ArrayUtils;
+import bg.tu.parallelprogramming.utilities.Mesh;
 
 /**
  * 

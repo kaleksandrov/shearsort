@@ -1,4 +1,4 @@
-package concurent;
+package bg.tu.parallelprogramming.concurent;
 
 /**
  * Implementation of a single task. Each CyclingThread is an instance of a

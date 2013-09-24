@@ -1,4 +1,4 @@
-package utilities;
+package bg.tu.parallelprogramming.utilities;
 
 import java.io.BufferedReader;
 import java.io.File;

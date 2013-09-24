@@ -1,4 +1,4 @@
-package serial;
+package bg.tu.parallelprogramming.parallel;
 
 /**
  *
@@ -7,7 +7,8 @@ package serial;
 
 import java.util.Scanner;
 
-import utilities.Mesh;
+import bg.tu.parallelprogramming.utilities.Mesh;
+import bg.tu.parallelprogramming.utilities.SortChecker;
 
 public class Main
 {
@@ -21,17 +22,18 @@ public class Main
 		case 0:
 			initialize();
 			break;
-		case 1:
-			String filename = args[0];
-			initialize(filename);
-			break;
 		case 2:
+			String filename = args[0];
+			int threads = Integer.parseInt(args[1]);
+			initialize(filename, threads);
+			break;
+		case 3:
 			int x = Integer.parseInt(args[0]);
 			int y = Integer.parseInt(args[1]);
-			initialize(x, y);
+			int threadsCount = Integer.parseInt(args[2]);
+			initialize(x, y, threadsCount);
 			break;
 		default:
-			System.out.println("Wrong input!");
 			System.exit(1);
 			break;
 		}
@@ -66,23 +68,52 @@ public class Main
 			mesh = new Mesh(m, n);
 			System.out.println("\tOK");
 		}
+
+		// Initialize threadpool
+		try
+		{
+			System.out.println("Please eneter working threads count:");
+			int threadsCount = reader.nextInt();
+			System.out.print("Initializing threadpool...");
+			ShearSort.setThreadsCount(threadsCount);
+		}
+		catch (Exception e)
+		{
+			System.out
+					.print("Sorry, the value you have entered is not a valid integer value. Using processors count instead...");
+		}
+		finally
+		{
+			System.out.println("\tOK");
+			System.out.println("Threads count : " + ShearSort.getThreadsCount());
+		}
 	}
 
-	private static void initialize(String filename)
+	private static void initialize(String filename, int threadsCount)
 	{
 		// Initialize mesh
 		System.out.print("Initializing mesh...");
 		mesh.loadFromFile(filename);
 		System.out.println("\tOK");
+
+		// Initialize threadpool
+		System.out.print("Initializing threadpool...");
+		ShearSort.setThreadsCount(threadsCount);
+		System.out.println("\tOK");
 	}
 
-	private static void initialize(int X, int Y)
+	private static void initialize(int X, int Y, int threadsCount)
 	{
 		// Initialize mesh
 		int m = X;
 		int n = Y;
 		System.out.print("Initializing mesh...");
 		mesh = new Mesh(m, n);
+		System.out.println("\tOK");
+
+		// Initialize threadpool
+		System.out.print("Initializing threadpool...");
+		ShearSort.setThreadsCount(threadsCount);
 		System.out.println("\tOK");
 	}
 

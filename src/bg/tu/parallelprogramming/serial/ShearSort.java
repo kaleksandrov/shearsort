@@ -1,10 +1,10 @@
-package serial;
+package bg.tu.parallelprogramming.serial;
 
 import java.util.Collections;
 
-import utilities.ArrayUtils;
-import utilities.MergeSort;
-import utilities.Mesh;
+import bg.tu.parallelprogramming.utilities.ArrayUtils;
+import bg.tu.parallelprogramming.utilities.MergeSort;
+import bg.tu.parallelprogramming.utilities.Mesh;
 
 /**
  * 

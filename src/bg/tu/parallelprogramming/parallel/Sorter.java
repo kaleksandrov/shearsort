@@ -1,6 +1,6 @@
-package parallel;
+package bg.tu.parallelprogramming.parallel;
 
-import utilities.Mesh;
+import bg.tu.parallelprogramming.utilities.Mesh;
 
 /**
  * 

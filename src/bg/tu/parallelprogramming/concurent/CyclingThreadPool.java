@@ -1,4 +1,4 @@
-package concurent;
+package bg.tu.parallelprogramming.concurent;
 
 import java.util.concurrent.Executor;
 
