@@ -3,7 +3,6 @@ package bg.tu.parallelprogramming.utilities;
 import java.util.Random;
 
 /**
- * 
  * @author kaleksandrov
  */
 public class ArrayUtils {
