@@ -1,0 +1,1657 @@
+
+####################
+--------------------
+Calculating for mesh 10 X 10 with 1 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Total iterrations : 5
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 8 milliseconds
+--------------------
+Calculating for mesh 10 X 10 with 2 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Total iterrations : 5
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 7 milliseconds
+--------------------
+Calculating for mesh 10 X 10 with 4 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Total iterrations : 5
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 8 milliseconds
+--------------------
+Calculating for mesh 10 X 10 with 8 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Total iterrations : 5
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 8 milliseconds
+--------------------
+Calculating for mesh 10 X 10 with 16 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Total iterrations : 5
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 10 milliseconds
+--------------------
+Calculating for mesh 10 X 10 with 32 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Total iterrations : 5
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 10 milliseconds
+####################
+--------------------
+Calculating for mesh 10 X 100 with 1 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Total iterrations : 6
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 32 milliseconds
+--------------------
+Calculating for mesh 10 X 100 with 2 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Total iterrations : 6
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 33 milliseconds
+--------------------
+Calculating for mesh 10 X 100 with 4 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Total iterrations : 6
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 32 milliseconds
+--------------------
+Calculating for mesh 10 X 100 with 8 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Total iterrations : 6
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 36 milliseconds
+--------------------
+Calculating for mesh 10 X 100 with 16 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Total iterrations : 6
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 35 milliseconds
+--------------------
+Calculating for mesh 10 X 100 with 32 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Total iterrations : 6
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 36 milliseconds
+####################
+--------------------
+Calculating for mesh 100 X 100 with 1 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Total iterrations : 8
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 103 milliseconds
+--------------------
+Calculating for mesh 100 X 100 with 2 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Total iterrations : 8
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 84 milliseconds
+--------------------
+Calculating for mesh 100 X 100 with 4 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Total iterrations : 8
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 65 milliseconds
+--------------------
+Calculating for mesh 100 X 100 with 8 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Total iterrations : 8
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 76 milliseconds
+--------------------
+Calculating for mesh 100 X 100 with 16 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Total iterrations : 7
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 171 milliseconds
+--------------------
+Calculating for mesh 100 X 100 with 32 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Total iterrations : 7
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 126 milliseconds
+####################
+--------------------
+Calculating for mesh 100 X 1000 with 1 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Total iterrations : 9
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 2639 milliseconds
+--------------------
+Calculating for mesh 100 X 1000 with 2 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Total iterrations : 8
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 1310 milliseconds
+--------------------
+Calculating for mesh 100 X 1000 with 4 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Total iterrations : 9
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 783 milliseconds
+--------------------
+Calculating for mesh 100 X 1000 with 8 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Total iterrations : 8
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 801 milliseconds
+--------------------
+Calculating for mesh 100 X 1000 with 16 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Total iterrations : 9
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 657 milliseconds
+--------------------
+Calculating for mesh 100 X 1000 with 32 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Total iterrations : 8
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 1101 milliseconds
+####################
+--------------------
+Calculating for mesh 1000 X 1000 with 1 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Total iterrations : 9
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 41780 milliseconds
+--------------------
+Calculating for mesh 1000 X 1000 with 2 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Total iterrations : 9
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 21241 milliseconds
+--------------------
+Calculating for mesh 1000 X 1000 with 4 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Total iterrations : 9
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 10788 milliseconds
+--------------------
+Calculating for mesh 1000 X 1000 with 8 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Total iterrations : 9
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 5775 milliseconds
+--------------------
+Calculating for mesh 1000 X 1000 with 16 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 6410 milliseconds
+--------------------
+Calculating for mesh 1000 X 1000 with 32 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 6410 milliseconds
+####################
+--------------------
+Calculating for mesh 1000 X 2000 with 1 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 141398 milliseconds
+--------------------
+Calculating for mesh 1000 X 2000 with 2 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 71252 milliseconds
+--------------------
+Calculating for mesh 1000 X 2000 with 4 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 35933 milliseconds
+--------------------
+Calculating for mesh 1000 X 2000 with 8 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 18184 milliseconds
+--------------------
+Calculating for mesh 1000 X 2000 with 16 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 18742 milliseconds
+--------------------
+Calculating for mesh 1000 X 2000 with 32 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 18335 milliseconds
+####################
+--------------------
+Calculating for mesh 2000 X 2000 with 1 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 360677 milliseconds
+--------------------
+Calculating for mesh 2000 X 2000 with 2 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 181420 milliseconds
+--------------------
+Calculating for mesh 2000 X 2000 with 4 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 91158 milliseconds
+--------------------
+Calculating for mesh 2000 X 2000 with 8 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 45829 milliseconds
+--------------------
+Calculating for mesh 2000 X 2000 with 16 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 45717 milliseconds
+--------------------
+Calculating for mesh 2000 X 2000 with 32 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 45932 milliseconds
+####################
+--------------------
+Calculating for mesh 2000 X 3000 with 1 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 575686 milliseconds
+--------------------
+Calculating for mesh 2000 X 3000 with 2 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 289540 milliseconds
+--------------------
+Calculating for mesh 2000 X 3000 with 4 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 145442 milliseconds
+--------------------
+Calculating for mesh 2000 X 3000 with 8 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 73014 milliseconds
+--------------------
+Calculating for mesh 2000 X 3000 with 16 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 72708 milliseconds
+--------------------
+Calculating for mesh 2000 X 3000 with 32 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 76635 milliseconds
+####################
+--------------------
+Calculating for mesh 2000 X 4000 with 1 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 1123467 milliseconds
+--------------------
+Calculating for mesh 2000 X 4000 with 2 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 564878 milliseconds
+--------------------
+Calculating for mesh 2000 X 4000 with 4 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 282993 milliseconds
+--------------------
+Calculating for mesh 2000 X 4000 with 8 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 141872 milliseconds
+--------------------
+Calculating for mesh 2000 X 4000 with 16 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 150105 milliseconds
+--------------------
+Calculating for mesh 2000 X 4000 with 32 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 141531 milliseconds
+####################
+--------------------
+Calculating for mesh 3000 X 3000 with 1 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 877239 milliseconds
+--------------------
+Calculating for mesh 3000 X 3000 with 2 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 440327 milliseconds
+--------------------
+Calculating for mesh 3000 X 3000 with 4 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 221075 milliseconds
+--------------------
+Calculating for mesh 3000 X 3000 with 8 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 110968 milliseconds
+--------------------
+Calculating for mesh 3000 X 3000 with 16 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 110639 milliseconds
+--------------------
+Calculating for mesh 3000 X 3000 with 32 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 110517 milliseconds
+####################
+--------------------
+Calculating for mesh 2000 X 5000 with 1 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 1465771 milliseconds
+--------------------
+Calculating for mesh 2000 X 5000 with 2 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 734431 milliseconds
+--------------------
+Calculating for mesh 2000 X 5000 with 4 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 368182 milliseconds
+--------------------
+Calculating for mesh 2000 X 5000 with 8 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Iteration: 11
+Total iterrations : 11
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 199061 milliseconds
+--------------------
+Calculating for mesh 2000 X 5000 with 16 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 184099 milliseconds
+--------------------
+Calculating for mesh 2000 X 5000 with 32 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 217838 milliseconds
+####################
+--------------------
+Calculating for mesh 3000 X 4000 with 1 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Iteration: 11
+Total iterrations : 11
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 1840131 milliseconds
+--------------------
+Calculating for mesh 3000 X 4000 with 2 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Iteration: 11
+Total iterrations : 11
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 922952 milliseconds
+--------------------
+Calculating for mesh 3000 X 4000 with 4 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Iteration: 11
+Total iterrations : 11
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 462782 milliseconds
+--------------------
+Calculating for mesh 3000 X 4000 with 8 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 214799 milliseconds
+--------------------
+Calculating for mesh 3000 X 4000 with 16 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 266590 milliseconds
+--------------------
+Calculating for mesh 3000 X 4000 with 32 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 214156 milliseconds
+####################
+--------------------
+Calculating for mesh 3000 X 5000 with 1 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Iteration: 11
+Total iterrations : 11
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 2398122 milliseconds
+--------------------
+Calculating for mesh 3000 X 5000 with 2 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 1111906 milliseconds
+--------------------
+Calculating for mesh 3000 X 5000 with 4 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 557427 milliseconds
+--------------------
+Calculating for mesh 3000 X 5000 with 8 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Iteration: 11
+Total iterrations : 11
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 300973 milliseconds
+--------------------
+Calculating for mesh 3000 X 5000 with 16 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 288154 milliseconds
+--------------------
+Calculating for mesh 3000 X 5000 with 32 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Iteration: 11
+Total iterrations : 11
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 300162 milliseconds
+####################
+--------------------
+Calculating for mesh 4000 X 4000 with 1 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 2873256 milliseconds
+--------------------
+Calculating for mesh 4000 X 4000 with 2 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 1439808 milliseconds
+--------------------
+Calculating for mesh 4000 X 4000 with 4 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 870545 milliseconds
+--------------------
+Calculating for mesh 4000 X 4000 with 8 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Iteration: 11
+Total iterrations : 11
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 391808 milliseconds
+--------------------
+Calculating for mesh 4000 X 4000 with 16 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 376331 milliseconds
+--------------------
+Calculating for mesh 4000 X 4000 with 32 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 435767 milliseconds
+####################
+--------------------
+Calculating for mesh 3000 X 6000 with 1 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Iteration: 11
+Total iterrations : 11
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 2970320 milliseconds
+--------------------
+Calculating for mesh 3000 X 6000 with 2 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Iteration: 11
+Total iterrations : 11
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 1491403 milliseconds
+--------------------
+Calculating for mesh 3000 X 6000 with 4 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Iteration: 11
+Total iterrations : 11
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 746940 milliseconds
+--------------------
+Calculating for mesh 3000 X 6000 with 8 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Iteration: 11
+Total iterrations : 11
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 374312 milliseconds
+--------------------
+Calculating for mesh 3000 X 6000 with 16 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 347882 milliseconds
+--------------------
+Calculating for mesh 3000 X 6000 with 32 threads
+Initializing mesh...	OK
+Initializing threadpool...	OK
+Sorting started...
+Iteration: 1
+Iteration: 2
+Iteration: 3
+Iteration: 4
+Iteration: 5
+Iteration: 6
+Iteration: 7
+Iteration: 8
+Iteration: 9
+Iteration: 10
+Total iterrations : 10
+Sorting finished!
+Matrix was sorted : true
+Total time needed : 347637 milliseconds
