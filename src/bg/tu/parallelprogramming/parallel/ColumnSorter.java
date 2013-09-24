@@ -4,27 +4,21 @@ import bg.tu.parallelprogramming.utilities.MergeSort;
 import bg.tu.parallelprogramming.utilities.Mesh;
 
 /**
- * @author flyingbear
+ * @author kaleksandrov
  */
-public class ColumnSorter extends Sorter
-{
+public class ColumnSorter extends Sorter {
 
-	public ColumnSorter(Mesh mesh, int index)
-	{
+	public ColumnSorter(Mesh mesh, int index) {
 		super(mesh, index);
 	}
 
 	@Override
-	public void run()
-	{
-		try
-		{
+	public void run() {
+		try {
 			int[] column = mesh.getColumn(index);
 			wasSorted = MergeSort.sort(column);
 			mesh.setColumn(index, column);
-		}
-		catch (InterruptedException e)
-		{
+		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 	}

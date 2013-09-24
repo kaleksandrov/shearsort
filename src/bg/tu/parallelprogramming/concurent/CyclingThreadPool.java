@@ -7,11 +7,10 @@ import java.util.concurrent.Executor;
  * a constant number of threads that execute tasks from a queue. When a single
  * task is done, a new one is polled from the queue.
  * 
- * @author Kiril Aleksandrov
+ * @author kaleksandrov
  * 
  */
-public class CyclingThreadPool implements Executor
-{
+public class CyclingThreadPool implements Executor {
 	/**
 	 * The number of threads
 	 */
@@ -27,8 +26,7 @@ public class CyclingThreadPool implements Executor
 	 */
 	private CyclingThread[] threads;
 
-	public CyclingThreadPool(final int threadsCount)
-	{
+	public CyclingThreadPool(final int threadsCount) {
 		this.threadsCount = threadsCount;
 		this.tasks = new CyclingQueue();
 		this.initThreads();
@@ -37,27 +35,23 @@ public class CyclingThreadPool implements Executor
 	/**
 	 * Initialize the threads
 	 */
-	private void initThreads()
-	{
+	private void initThreads() {
 		// Initializing the array
 		this.threads = new CyclingThread[this.threadsCount];
 
 		// Creating threads
-		for (int i = 0; i < this.threads.length; i++)
-		{
+		for (int i = 0; i < this.threads.length; i++) {
 			this.threads[i] = new CyclingThread(this.tasks);
 		}
 
 		// Starting threads
-		for (Thread thread : this.threads)
-		{
+		for (Thread thread : this.threads) {
 			thread.start();
 		}
 	}
 
 	@Override
-	public void execute(Runnable task)
-	{
+	public void execute(Runnable task) {
 		this.tasks.enqueue(task);
 	}
 
@@ -67,11 +61,9 @@ public class CyclingThreadPool implements Executor
 	 * 
 	 * @throws InterruptedException
 	 */
-	public void shutdown() throws InterruptedException
-	{
+	public void shutdown() throws InterruptedException {
 		this.waitToFinishStartedTasks();
-		for (CyclingThread thread : this.threads)
-		{
+		for (CyclingThread thread : this.threads) {
 			thread.finishThread();
 			thread.interrupt();
 		}
@@ -83,8 +75,7 @@ public class CyclingThreadPool implements Executor
 	 * 
 	 * @throws InterruptedException
 	 */
-	public void waitToFinishStartedTasks() throws InterruptedException
-	{
+	public void waitToFinishStartedTasks() throws InterruptedException {
 		this.tasks.waitOnJoinBarrier();
 	}
 }

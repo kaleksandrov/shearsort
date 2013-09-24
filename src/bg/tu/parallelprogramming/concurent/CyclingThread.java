@@ -6,11 +6,10 @@ package bg.tu.parallelprogramming.concurent;
  * reference to the queue with tasks. When the current tasks is executed, the
  * next task is polled from the queue and so on until all tasks are done.
  * 
- * @author Kiril Aleksandrov
+ * @author kaleksandrov
  * 
  */
-public class CyclingThread extends Thread
-{
+public class CyclingThread extends Thread {
 
 	/**
 	 * Reference to the queue with the tasks.
@@ -23,8 +22,7 @@ public class CyclingThread extends Thread
 	 */
 	private boolean setToFinish;
 
-	public CyclingThread(CyclingQueue queue)
-	{
+	public CyclingThread(CyclingQueue queue) {
 		this.queue = queue;
 		this.setToFinish = false;
 	}
@@ -33,34 +31,26 @@ public class CyclingThread extends Thread
 	 * Raise the flag to force stopping the thread after the current execution
 	 * ot the <b>run</b> method.
 	 */
-	public void finishThread()
-	{
+	public void finishThread() {
 		this.setToFinish = true;
 	}
 
 	@Override
-	public void run()
-	{
-		while (!super.isInterrupted() && !this.setToFinish)
-		{
+	public void run() {
+		while (!super.isInterrupted() && !this.setToFinish) {
 			Runnable task = null;
 
 			// Getting the next task from the queue
-			try
-			{
+			try {
 				task = this.queue.deque();
-			}
-			catch (InterruptedException e)
-			{
-				if (!this.setToFinish)
-				{
+			} catch (InterruptedException e) {
+				if (!this.setToFinish) {
 					e.printStackTrace();
 				}
 			}
 
 			// If the queue is empty, wait for new tasks
-			if (task != null)
-			{
+			if (task != null) {
 				this.queue.increaseStartedTasks();
 				task.run();
 				this.queue.increaseFinishedTasks();

@@ -2,7 +2,7 @@ package bg.tu.parallelprogramming.parallel;
 
 /**
  *
- * @author flyingbear
+ * @author kaleksandrov
  */
 
 import java.util.Scanner;
@@ -10,15 +10,12 @@ import java.util.Scanner;
 import bg.tu.parallelprogramming.utilities.Mesh;
 import bg.tu.parallelprogramming.utilities.SortChecker;
 
-public class Main
-{
+public class Main {
 
 	private static Mesh mesh = new Mesh();
 
-	public static void main(String[] args)
-	{
-		switch (args.length)
-		{
+	public static void main(String[] args) {
+		switch (args.length) {
 		case 0:
 			initialize();
 			break;
@@ -40,57 +37,46 @@ public class Main
 		doSort();
 	}
 
-	private static void initialize()
-	{
+	private static void initialize() {
 		Scanner reader = new Scanner(System.in);
 
 		// Initialize mesh
 		int m = 100;
 		int n = 100;
-		try
-		{
+		try {
 			System.out.println("Please enter matrix dimensions MxN:");
 			System.out.print("M = ");
 			m = reader.nextInt();
 			System.out.print("N = ");
 			n = reader.nextInt();
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			System.out
 					.print("Sorry, the value you have entered is not a valid integer value. Default values will be used.");
 			m = 100;
 			n = 100;
-		}
-		finally
-		{
+		} finally {
 			System.out.print("Initializing mesh...");
 			mesh = new Mesh(m, n);
 			System.out.println("\tOK");
 		}
 
 		// Initialize threadpool
-		try
-		{
+		try {
 			System.out.println("Please eneter working threads count:");
 			int threadsCount = reader.nextInt();
 			System.out.print("Initializing threadpool...");
 			ShearSort.setThreadsCount(threadsCount);
-		}
-		catch (Exception e)
-		{
+		} catch (Exception e) {
 			System.out
 					.print("Sorry, the value you have entered is not a valid integer value. Using processors count instead...");
-		}
-		finally
-		{
+		} finally {
 			System.out.println("\tOK");
-			System.out.println("Threads count : " + ShearSort.getThreadsCount());
+			System.out
+					.println("Threads count : " + ShearSort.getThreadsCount());
 		}
 	}
 
-	private static void initialize(String filename, int threadsCount)
-	{
+	private static void initialize(String filename, int threadsCount) {
 		// Initialize mesh
 		System.out.print("Initializing mesh...");
 		mesh.loadFromFile(filename);
@@ -102,8 +88,7 @@ public class Main
 		System.out.println("\tOK");
 	}
 
-	private static void initialize(int X, int Y, int threadsCount)
-	{
+	private static void initialize(int X, int Y, int threadsCount) {
 		// Initialize mesh
 		int m = X;
 		int n = Y;
@@ -117,23 +102,21 @@ public class Main
 		System.out.println("\tOK");
 	}
 
-	private static void doSort()
-	{
+	private static void doSort() {
 		System.out.println("Sorting started...");
 		long start = System.currentTimeMillis();
-		try
-		{
+		try {
 			System.out.println("Total iterrations : " + ShearSort.sort(mesh));
-		}
-		catch (InterruptedException e)
-		{
-			System.out.println("Unfortunately something gone wrong with the threadpool... this shouldn't happen...");
+		} catch (InterruptedException e) {
+			System.out
+					.println("Unfortunately something gone wrong with the threadpool... this shouldn't happen...");
 			e.printStackTrace();
 		}
 		long end = System.currentTimeMillis();
 		System.out.println("Sorting finished!");
 		System.out.print("Matrix was sorted : ");
 		System.out.println(SortChecker.checkIsMatrixSorted(mesh.getMatrix()));
-		System.out.println("Total time needed : " + (end - start) + " milliseconds");
+		System.out.println("Total time needed : " + (end - start)
+				+ " milliseconds");
 	}
 }

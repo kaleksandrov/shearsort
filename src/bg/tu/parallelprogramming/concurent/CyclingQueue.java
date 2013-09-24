@@ -7,11 +7,10 @@ import java.util.Queue;
  * This is an implementation of a queue. It holds runnable tasks that should be
  * executed.
  * 
- * @author Kiril Aleksandrov
+ * @author kaleksandrov
  * 
  */
-public class CyclingQueue
-{
+public class CyclingQueue {
 
 	/**
 	 * The queue with runnable tasks
@@ -45,8 +44,7 @@ public class CyclingQueue
 	 */
 	private Object taskBarrier;
 
-	public CyclingQueue()
-	{
+	public CyclingQueue() {
 		this.tasks = new LinkedList<Runnable>();
 		this.isLocked = false;
 		this.startedTasks = 0;
@@ -61,12 +59,9 @@ public class CyclingQueue
 	 * @param task
 	 *            The task to be added
 	 */
-	public void enqueue(final Runnable task)
-	{
-		synchronized (this.taskBarrier)
-		{
-			if (!this.isLocked)
-			{
+	public void enqueue(final Runnable task) {
+		synchronized (this.taskBarrier) {
+			if (!this.isLocked) {
 				this.tasks.add(task);
 				this.taskBarrier.notify();
 			}
@@ -80,12 +75,9 @@ public class CyclingQueue
 	 * @throws InterruptedException
 	 *             When synchronization problem occurs
 	 */
-	public Runnable deque() throws InterruptedException
-	{
-		synchronized (this.taskBarrier)
-		{
-			if (this.tasks.isEmpty())
-			{
+	public Runnable deque() throws InterruptedException {
+		synchronized (this.taskBarrier) {
+			if (this.tasks.isEmpty()) {
 				this.taskBarrier.wait();
 			}
 			return this.tasks.poll();
@@ -96,8 +88,7 @@ public class CyclingQueue
 	 * Rejects all pending tasks. Remove them from the queue and marks the queue
 	 * as locked.
 	 */
-	public void rejectAll()
-	{
+	public void rejectAll() {
 		this.isLocked = true;
 		this.tasks.clear();
 	}
@@ -105,8 +96,7 @@ public class CyclingQueue
 	/**
 	 * Reject all new incoming tasks. Marks the queue as locked.
 	 */
-	public void rejectNew()
-	{
+	public void rejectNew() {
 		this.isLocked = true;
 	}
 
@@ -115,18 +105,15 @@ public class CyclingQueue
 	 * 
 	 * @return The number of started tasks
 	 */
-	public int getStartedTasks()
-	{
+	public int getStartedTasks() {
 		return this.startedTasks;
 	}
 
 	/**
 	 * Increase started tasks counter
 	 */
-	public void increaseStartedTasks()
-	{
-		synchronized (this.joinBarrier)
-		{
+	public void increaseStartedTasks() {
+		synchronized (this.joinBarrier) {
 			this.startedTasks++;
 		}
 	}
@@ -136,21 +123,18 @@ public class CyclingQueue
 	 * 
 	 * @return The number of finished tasks
 	 */
-	public int getFinishedTasks()
-	{
+	public int getFinishedTasks() {
 		return this.finishedTasks;
 	}
 
 	/**
 	 * Increase the number of finished tasks
 	 */
-	public void increaseFinishedTasks()
-	{
-		synchronized (this.joinBarrier)
-		{
+	public void increaseFinishedTasks() {
+		synchronized (this.joinBarrier) {
 			this.finishedTasks++;
-			if ((this.finishedTasks == this.startedTasks) && (0 == this.tasks.size()))
-			{
+			if ((this.finishedTasks == this.startedTasks)
+					&& (0 == this.tasks.size())) {
 				this.isLocked = false;
 				this.joinBarrier.notifyAll();
 			}
@@ -162,13 +146,10 @@ public class CyclingQueue
 	 * 
 	 * @throws InterruptedException
 	 */
-	public void waitOnJoinBarrier() throws InterruptedException
-	{
-		if (0 != this.tasks.size())
-		{
+	public void waitOnJoinBarrier() throws InterruptedException {
+		if (0 != this.tasks.size()) {
 			this.isLocked = true;
-			synchronized (this.joinBarrier)
-			{
+			synchronized (this.joinBarrier) {
 				this.joinBarrier.wait();
 			}
 		}
@@ -177,10 +158,8 @@ public class CyclingQueue
 	/**
 	 * Notiifies all threads that are waiting on the task barrier
 	 */
-	public void notifyAllThreads()
-	{
-		synchronized (this.taskBarrier)
-		{
+	public void notifyAllThreads() {
+		synchronized (this.taskBarrier) {
 			this.taskBarrier.notifyAll();
 		}
 	}

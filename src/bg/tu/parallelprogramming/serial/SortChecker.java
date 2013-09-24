@@ -8,54 +8,39 @@ import bg.tu.parallelprogramming.utilities.ArrayUtils;
 
 /**
  * 
- * @author flyingbear
+ * @author kaleksandrov
  */
-public class SortChecker
-{
+public class SortChecker {
 
-	private SortChecker()
-	{
+	private SortChecker() {
 		// Prevent initializing
 	}
 
-	public static boolean checkIsMatrixSorted(int[][] matrix)
-	{
+	public static boolean checkIsMatrixSorted(int[][] matrix) {
 		boolean isSorted = true;
 		int height = matrix.length;
 		int width = matrix[0].length;
 		int previous = matrix[0][0];
 		int current = matrix[0][0];
 
-		for (int i = 0; i < height; ++i)
-		{
-			if (ArrayUtils.odd(i))
-			{
-				for (int j = width - 1; j >= 0; j--)
-				{
+		for (int i = 0; i < height; ++i) {
+			if (ArrayUtils.odd(i)) {
+				for (int j = width - 1; j >= 0; j--) {
 					current = matrix[i][j];
-					if (current < previous)
-					{
+					if (current < previous) {
 						isSorted = false;
 						break;
-					}
-					else
-					{
+					} else {
 						previous = current;
 					}
 				}
-			}
-			else
-			{
-				for (int j = 0; j < width; ++j)
-				{
+			} else {
+				for (int j = 0; j < width; ++j) {
 					current = matrix[i][j];
-					if (current < previous)
-					{
+					if (current < previous) {
 						isSorted = false;
 						break;
-					}
-					else
-					{
+					} else {
 						previous = current;
 					}
 				}

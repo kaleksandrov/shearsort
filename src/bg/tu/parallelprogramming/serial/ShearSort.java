@@ -8,41 +8,34 @@ import bg.tu.parallelprogramming.utilities.Mesh;
 
 /**
  * 
- * @author flyingbear
+ * @author kaleksandrov
  */
-public class ShearSort
-{
+public class ShearSort {
 
-	private ShearSort()
-	{
+	private ShearSort() {
 		// Prevent initialization
 	}
 
-	public static int sort(Mesh mesh) throws InterruptedException
-	{
+	public static int sort(Mesh mesh) throws InterruptedException {
 
 		boolean done = false;
 		int height = mesh.getHeight();
 		int width = mesh.getWidth();
 		int iterationCounter = 0;
 
-		while (!done)
-		{
+		while (!done) {
 
 			iterationCounter++;
 			done = true;
 
 			// sort rows
-			for (int j = 0; j < height; ++j)
-			{
+			for (int j = 0; j < height; ++j) {
 				int[] row = mesh.getRow(j);
-				if (ArrayUtils.odd(j))
-				{
+				if (ArrayUtils.odd(j)) {
 					// descending
-					done = MergeSort.sort(row, Collections.reverseOrder()) && done;
-				}
-				else
-				{
+					done = MergeSort.sort(row, Collections.reverseOrder())
+							&& done;
+				} else {
 
 					// ascending
 					done = MergeSort.sort(row) && done;
@@ -51,8 +44,7 @@ public class ShearSort
 			}
 
 			// sort ascending columns
-			for (int i = 0; i < width; ++i)
-			{
+			for (int i = 0; i < width; ++i) {
 				int[] column = mesh.getColumn(i);
 				done = MergeSort.sort(column) && done;
 				mesh.setColumn(i, column);

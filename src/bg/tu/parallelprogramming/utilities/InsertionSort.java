@@ -4,28 +4,23 @@ import java.util.Comparator;
 
 /**
  * 
- * @author flyingbear
+ * @author kaleksandrov
  */
-public class InsertionSort
-{
+public class InsertionSort {
 
-	private InsertionSort()
-	{
+	private InsertionSort() {
 		// Prevent initializtion
 	}
 
-	@SuppressWarnings(
-	{ "rawtypes", "unchecked" })
-	public static Boolean sort(int[] array)
-	{
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	public static Boolean sort(int[] array) {
 		int low = 0;
 		int high = array.length;
 		Boolean wasArraySorted = true;
 
-		for (int i = low; i < high; i++)
-		{
-			for (int j = i; j > low && ((Comparable) array[j - 1]).compareTo(array[j]) > 0; j--)
-			{
+		for (int i = low; i < high; i++) {
+			for (int j = i; j > low
+					&& ((Comparable) array[j - 1]).compareTo(array[j]) > 0; j--) {
 				swap(array, j, j - 1);
 				wasArraySorted = false;
 			}
@@ -34,18 +29,15 @@ public class InsertionSort
 		return wasArraySorted;
 	}
 
-	@SuppressWarnings(
-	{ "rawtypes", "unchecked" })
-	public static Boolean sort(int[] array, Comparator comparator)
-	{
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	public static Boolean sort(int[] array, Comparator comparator) {
 		int low = 0;
 		int high = array.length;
 		Boolean wasArraySorted = true;
 
-		for (int i = low; i < high; i++)
-		{
-			for (int j = i; j > low && (comparator.compare(array[j - 1], array[j]) > 0); j--)
-			{
+		for (int i = low; i < high; i++) {
+			for (int j = i; j > low
+					&& (comparator.compare(array[j - 1], array[j]) > 0); j--) {
 				swap(array, j, j - 1);
 				wasArraySorted = false;
 			}
@@ -54,8 +46,7 @@ public class InsertionSort
 		return wasArraySorted;
 	}
 
-	public static void swap(int[] array, int first, int second)
-	{
+	public static void swap(int[] array, int first, int second) {
 		int tmp = array[first];
 		array[first] = array[second];
 		array[second] = tmp;
